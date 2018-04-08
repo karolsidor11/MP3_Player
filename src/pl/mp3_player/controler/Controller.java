@@ -10,6 +10,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.TableView;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.input.MouseDragEvent;
+
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -80,9 +81,9 @@ public class Controller implements Initializable {
         playButton.setOnAction(new EventHandler<javafx.event.ActionEvent>() {
             @Override
             public void handle(javafx.event.ActionEvent event) {
-                if (playButton.isSelected()){
+                if (playButton.isSelected()) {
                     System.out.println("Play");
-                }else{
+                } else {
                     System.out.println("Stop");
                 }
             }

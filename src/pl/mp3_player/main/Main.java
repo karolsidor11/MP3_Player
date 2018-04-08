@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         final String appName = "Mp3Player v0.2";
-        Parent parent = FXMLLoader.load(getClass().getResource("/pl/mp3_player/view/Player.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("/pl/mp3_player/view/Main.fxml"));
         Scene scene = new Scene(parent);
         primaryStage.setTitle(appName);
         primaryStage.setScene(scene);
