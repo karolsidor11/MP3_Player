@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import java.lang.*?>
+
 <?import javafx.scene.layout.*?>
 
 <HBox BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8"
